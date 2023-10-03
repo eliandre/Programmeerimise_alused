@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hohne"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 11:08:11 AM"/>
+        <attribute name="created" value="aG9obmU7TEFQVE9QLTVNUTUxTjRVOzIwMjMtMDktMjg7MTA6MDU6NDAgQU07MjgzMg=="/>
+        <attribute name="edited" value="aG9obmU7TEFQVE9QLTVNUTUxTjRVOzIwMjMtMDktMjg7MTE6MDg6MTEgQU07MjsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2" type="Integer" array="False" size=""/>
+            <input variable="arv1"/>
+            <input variable="arv2"/>
+            <if expression="arv1 &gt; arv2">
+                <then>
+                    <output expression="&quot;Esimene&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="arv1 &lt; arv2">
+                        <then>
+                            <output expression="&quot;Teine&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Arvud on v&#245;rdsed&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
